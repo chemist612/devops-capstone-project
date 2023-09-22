@@ -1,5 +1,6 @@
 FROM python:3.9-slim
 
+#http://accounts-sn-labs-andrewgharri.labs-prod-openshift-san-a45631dc5778dc6371c67d206ba9ae5c-0000.us-east.containers.appdomain.cloud/
 # Create working folder and install dependencies
 WORKDIR /app
 COPY requirements.txt .
